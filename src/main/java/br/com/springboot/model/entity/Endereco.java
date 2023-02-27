@@ -1,4 +1,4 @@
-package br.com.springbootattornatus.model.entity;
+package br.com.springboot.model.entity;
 
 import java.io.Serializable;
 import java.util.Objects;

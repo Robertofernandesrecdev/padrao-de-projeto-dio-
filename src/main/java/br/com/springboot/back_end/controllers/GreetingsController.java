@@ -1,4 +1,4 @@
-package br.com.springbootattornatus.back_end_attornatus.controllers;
+package br.com.springboot.back_end.controllers;
 
 import java.util.List;
 
@@ -19,9 +19,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 
-import br.com.springbootattornatus.back_end_attornatus.repository.PessoaRepository;
-import br.com.springbootattornatus.model.entity.Endereco;
-import br.com.springbootattornatus.model.entity.Pessoa;
+import br.com.springboot.back_end.repository.PessoaRepository;
+import br.com.springboot.model.entity.Endereco;
+import br.com.springboot.model.entity.Pessoa;
 
 @RestController
 public class GreetingsController {
